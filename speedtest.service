@@ -1,0 +1,7 @@
+[Unit]
+Description=Speedtest
+After=network.target
+
+[Service]
+User=root
+ExecStart=/usr/bin/python3  /root/speedtest/speedtest.py
